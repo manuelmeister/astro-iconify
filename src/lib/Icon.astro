@@ -1,6 +1,6 @@
 ---
 import load, { fallback, normalizeProps } from './utils.ts';
-export { Props } from './Props.ts';
+export type { Props } from './Props.ts';
 
 let { name, pack, title, optimize = true, class: className, ...inputProps } = Astro.props;
 let props = {};
