@@ -2,7 +2,7 @@
 import { SPRITESHEET_NAMESPACE } from './constants';
 import { normalizeProps } from './utils.ts';
 import { trackSprite } from './context.ts';
-export { Props } from './Props.ts';
+export type { Props } from './Props.ts';
 
 let { name, pack, title, class: className, x, y, ...inputProps } = Astro.props;
 const props = normalizeProps(inputProps);
