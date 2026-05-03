@@ -70,7 +70,7 @@ function optimizeSvg(
       "removeDesc",
       "removeDimensions",
       "removeStyleElement",
-      "removeScriptElement",
+      "removeScripts", // renamed from removeScriptElement in SVGO
     ],
   }).data;
 }
